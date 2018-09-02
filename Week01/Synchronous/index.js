@@ -2,7 +2,7 @@ const fs = require ('fs');
 
 
 console.time('Time to read files Synchronously');
-
+//https://stackoverflow.com/questions/17604866/difference-between-readfile-and-readfilesync
 const file1 = fs.readFileSync ('file1.txt','utf-8');
 const file2 = fs.readFileSync ('file2.txt','utf-8');
 const file3 = fs.readFileSync ('file3.txt','utf-8');
