@@ -1,0 +1,19 @@
+{
+    "name": "week02",
+    "version": "1.0.0",
+    "description": "Create a class called _StudentContact_ which extends the _Contact_ class which allows to add the courses the students has taken and the progress ( _progress_ must be a property)",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "prestart": "npm run build",
+        "start": "node dist/index.js",
+        "build": "babel src/ -d dist/ --source-maps",
+        "watch": "babel -w src/ -d dist/ --source-maps"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "babel-cli": "6.26.0",
+        "babel-preset-env": "1.6.1"
+    }
+}
